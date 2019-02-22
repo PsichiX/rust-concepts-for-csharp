@@ -292,8 +292,7 @@ public static void PrematureDataRelease()
 }
 ```
 
-Moral of the story is - _do not accept any data mutation more than once in one
-scope and its sub-scopes_. Readonly pointers may not solve all your problems
+Readonly pointers may not solve all your problems
 with accidential mutability, but they are good at least at forcing scope to not
 mutate input data.
 
